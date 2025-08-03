@@ -1,5 +1,5 @@
 #  Safe SMS
-An SMS Phishing Detection Application backed my a Machine Learning model. It classifies input text message as "Legitimate" or "Phishing". Ideal for low tech users who can't detect phishing scams themselves as phishing attacks evolve and get harder to detect with time.
+An SMS Phishing Detection Application backed by a Machine Learning model. It classifies input text message as "Legitimate" or "Phishing". Ideal for low tech users who can't detect phishing scams themselves as phishing attacks evolve and get harder to detect with time.
 
 ## Key features
 •	A preprocessing pipeline that cleans the input and standardizes it.
