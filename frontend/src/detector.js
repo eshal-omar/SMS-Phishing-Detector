@@ -13,20 +13,26 @@ export default function Detector(){
     return;
   }
   setError("");
+  const payload = { message: sms };
+  const startTime = performance.now();
+  setTimeout(async () => {
     try {
       const response = await fetch("http://localhost:5000/predict", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify({ message: sms }),
+        body: JSON.stringify( payload ),
       });
 
       const data = await response.json();
+      const endTime = performance.now();
+      console.log(`Prediction latency: ${(endTime - startTime).toFixed(2)} ms`);
     navigate("/result", { state: { smsMessage: sms, verdict: data.verdict } });
      } catch (error) {
       console.error("Error analyzing SMS:", error);
     }
+    }, 0);
   };
     return(
     <div className="p-4 flex flex-col overflow-visible">
