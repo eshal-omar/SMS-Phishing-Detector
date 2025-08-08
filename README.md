@@ -35,7 +35,7 @@ An SMS Phishing Detection Application backed by a Machine Learning model. It cla
 ## Setup Instructions
 1.  Open command prompt
    
-2. CD into the directory you wish to store the applications folder. Command would be cd path to folder (eg cd  C:\Users\)
+2. CD into the directory you wish to store the applications folder. Command is: cd path\to\folder (replace path\to\folder with your own path)
    
 3. then run this command : git clone https://github.com/eshal-omar/SMS-Phishing-Detector.git
    
