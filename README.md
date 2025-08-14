@@ -47,7 +47,7 @@ An SMS Phishing Detection Application backed by a Machine Learning model. It cla
    
 7. In second (backend) terminal run the following commands: cd backend , python -m venv venv , venv\Scripts\activate, pip install flask joblib pandas scipy flask-cors, pip install numpy pandas scikit-learn scipy,pip install waitress.
    
-8. This will install all needed packages. Finally run the following commands to start the application : npm run start (run this in frontend terminal) and python app.py (run this in backend terminal).
+8. This will install all needed packages. Finally run the following commands to start the application : npm run start (run this in frontend terminal) and python serve.py (run this in backend terminal).
    
 	This will open the app on local browser (localhost:3000)
 
