@@ -50,3 +50,10 @@ An SMS Phishing Detection Application backed by a Machine Learning model. It cla
 8. This will install all needed packages. Finally run the following commands to start the application : npm run start (run this in frontend terminal) and python app.py (run this in backend terminal).
    
 	This will open the app on local browser (localhost:3000)
+
+
+## Video Demonstration
+
+
+https://github.com/user-attachments/assets/53dfef1c-0f0d-44dd-b637-a7ff8af2800d
+
